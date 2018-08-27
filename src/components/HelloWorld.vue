@@ -1,15 +1,15 @@
 <template>
     <div class="hello">
-        {{ msg }}
+        Hello, {{ msg }}!
     </div>
 </template>
 
 <script lang="ts">
-    import {Component, Prop, Vue} from 'vue-property-decorator';
+    import {Component, Prop, Vue} from 'vue-property-decorator'
 
     @Component
     export default class HelloWorld extends Vue {
-        @Prop() private msg: string = "Hello Vue!";
+        @Prop() private msg!: string
     }
 </script>
 

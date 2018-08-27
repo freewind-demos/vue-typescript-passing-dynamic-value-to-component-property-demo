@@ -1,6 +1,5 @@
-Vue Typescript Demo
-===================
-
+Vue Typescript Passing Dynamic Values to Component Property Demo
+================================================================
 
 ```
 npm install
